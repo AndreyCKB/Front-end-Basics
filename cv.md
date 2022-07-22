@@ -15,7 +15,7 @@
 С начало работал монтажником локальных сетей, тянул кобеля, устанавливал оборудование провайдера, настраивал оборудования пользователей.  
 Затем работал в банке занимался настройкой, ремонтов, и обслуживанием Банкоматов, платёжных и POS терминалов.  
 Сейчас работаю Middle developer CRM Siebel. В рабое ипользую Siebel Tools, eScript, SQL, XSLT, JavaScript.  
-В свободное время люблю решат задачи на [Codewars.com](https://www.codewars.com/users/AndreyCKB1985)
+В свободное время люблю решать задачи на [Codewars.com](https://www.codewars.com/users/AndreyCKB1985)
 
 ### Skills:
 
@@ -42,7 +42,7 @@ function highAndLow(numbers){
 ### Courses:
 
 - RS Schools Course «JavaScript/Front-end
-- Java [https://javarush.ru]
+- Java [javarush.ru](https://javarush.ru])
 
 ### Language:
 
