@@ -5,10 +5,10 @@
 ### Contact information:
 
 **Address:** Russia, Yekaterinburg  
-**Phone:** +7(963)850-03-59  
+**Phone:** +7 (963) 850-03-59  
 **E-mail:** andreyckb@mail.ru  
 **Telegram:** @Addres  
-**GitHub:** AndreyCKB(https://github.com/AndreyCKB)
+**GitHub:** [AndreyCKB](https://github.com/AndreyCKB)
 
 ### Briefly About Myself:
 
@@ -34,8 +34,8 @@
 
 ```
 function highAndLow(numbers){
- numbers = numbers.split(" ").map( str => Number.parseInt(str) ).sort( (a,b) => a - b );
- return `${numbers[numbers.length - 1]} ${numbers[0]}`;
+    numbers = numbers.split(" ").map( str => Number.parseInt(str) ).sort( (a,b) => a - b );
+    return `${numbers[numbers.length - 1]} ${numbers[0]}`;
 }
 ```
 
