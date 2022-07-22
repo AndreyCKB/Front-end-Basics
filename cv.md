@@ -4,10 +4,10 @@
 
 ### Contact information:
 
-Address: A.Rahimov st. Baku, Azerbaijan
+Address: Russia, Yekaterinburg
 Phone: +7(963)850-03-59
 E-mail: andreyckb@mail.ru
-Telegram: @
+Telegram: @Addres
 GitHub:
 
 ### Briefly About Myself:
@@ -25,7 +25,7 @@ HTML5
 - JavaScript
 - SQL
 - Java
-- Java Spring(basic knowledge)
+- Java Spring (basic knowledge)
 - Angular
 - Git, GitHub
 - VS Code
@@ -35,15 +35,15 @@ HTML5
 
 ```
 function highAndLow(numbers){
- numbers = numbers.split(" ").map(str => Number.parseInt(str)).sort((a,b)=> a- b);
- return `${numbers[numbers.length -1]} ${numbers[0]}`;
+ numbers = numbers.split(" ").map( str => Number.parseInt(str) ).sort( (a,b) => a - b );
+ return `${numbers[numbers.length - 1]} ${numbers[0]}`;
 }
 ```
 
 ### Courses:
 
 - RS Schools Course «JavaScript/Front-end
-- Java https://javarush.ru
+- Java [https://javarush.ru]
 
 ### Language:
 
