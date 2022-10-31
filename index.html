@@ -8,8 +8,20 @@
     <link rel="icon" href="assets/cv.ico"><!--Значек сайта -->
     <title>CV</title>
 </head>
-<body class="body">    
-    <div class="content">
+<body class="body">     
+    <header class="header margin_auto">        
+        <div class="menu-wraper">
+            <nav class="menu">
+                <div class="menu__item">CONTACTS</div>
+                <div class="menu__item">SKILLS</div>
+                <div class="menu__item">COURSES</div>
+                <div class="menu__item">JOB EXPERIENCE</div>
+                <div class="menu__item">EDUCATION</div>
+                <div class="menu__item">SUMMARY</div>
+            </nav>
+        </div>
+    </header>   
+    <div class="content">        
         <aside class="aside">
             <div class="aside__body">
                 <img src="./assets/myPhoto.jpg" alt="my photo" class="aside__photo">
@@ -45,26 +57,26 @@
                 <div class="aside__line"></div>
                 <div class="aside__item">                                   
                     <h3 class="aside__title">SKILLS</h3>
-                    <ul class="aside__ul">
-                            <li class="aside__li">                    
-                                <span class="aside__name">Web-development:</span>
-                                <span class="aside__value">HTML, CSS, JavaScript</span>                        
+                    <ul class="aside-list">
+                            <li class="aside-list-item">                    
+                                <span class="aside-list-item__name">Web-development:</span>
+                                <span class="aside-list-item__value">HTML, CSS, JavaScript</span>                        
                             </li>
-                            <li class="aside__li">                          
-                                <span class="aside__name">Frameworks:</span>
-                                <span class="aside__value">Angular</span>            
+                            <li class="aside-list-item">                          
+                                <span class="aside-list-item__name">Frameworks:</span>
+                                <span class="aside-list-item__value">Angular</span>            
                             </li>
-                            <li class="aside__li">                           
-                                <span class="aside__name">Version control:</span>
-                                <span class="aside__value">Git, Github</span>                            
+                            <li class="aside-list-item">                           
+                                <span class="aside-list-item__name">Version control:</span>
+                                <span class="aside-list-item__value">Git, Github</span>                            
                             </li>
-                            <li class="aside__li">                           
-                                <span class="aside__name">Graphics:</span>
-                                <span class="aside__value">Figma</span>           
+                            <li class="aside-list-item">                           
+                                <span class="aside-list-item__name">Graphics:</span>
+                                <span class="aside-list-item__value">Figma</span>           
                             </li>
-                            <li class="aside__li">                           
-                                <span class="aside__name">Languages:</span>
-                                <span class="aside__value">English, Russian</span>           
+                            <li class="aside-list-item">                           
+                                <span class="aside-list-item__name">Languages:</span>
+                                <span class="aside-list-item__value">English, Russian</span>           
                             </li>                                                        
                         </ul>                    
                 </div>
@@ -72,18 +84,18 @@
                 <div class="aside__line"></div>
                 <div class="aside__item">                                   
                     <h3 class="aside__title">COURSES</h3>
-                    <ul class="aside__ul">                            
-                            <li class="aside__li">                          
-                                <span class="aside__name">learn.javascript.ru:</span>
-                                <span class="aside__value">JavaScript</span>            
+                    <ul class="aside-list">                            
+                            <li class="aside-list-item">                          
+                                <span class="aside-list-item__name">learn.javascript.ru:</span>
+                                <span class="aside-list-item__value">JavaScript</span>            
                             </li>                            
-                            <li class="aside__li">                           
-                                <span class="aside__name">Codewars:</span>
-                                <span class="aside__value">JavaScript, Java</span>           
+                            <li class="aside-list-item">                           
+                                <span class="aside-list-item__name">Codewars:</span>
+                                <span class="aside-list-item__value">JavaScript, Java</span>           
                             </li>
-                            <li class="aside__li">                           
-                                <span class="aside__name">JavaRush :</span>
-                                <span class="aside__value">Java</span>                            
+                            <li class="aside-list-item">                           
+                                <span class="aside-list-item__name">JavaRush :</span>
+                                <span class="aside-list-item__value">Java</span>                            
                             </li>                                                        
                         </ul>                    
                 </div>
@@ -93,65 +105,112 @@
         </aside>
 
         <main class="main">
+            
             <div class="main-header">
-                <h1 class="main-header__title">LYAKHOVICH ANDREY</h1>
-                <h2 class="main-header__subtitle">Frontend-Developer</h2>
+                <div class="margin_auto">
+                    <h1 class="main-header__title">LYAKHOVICH ANDREY</h1>
+                    <h2 class="main-header__subtitle">Frontend-Developer</h2>
+                </div>
+            </div>
+            <div class="main__content margin_auto">
+            <div class="main-item">
+                <div class="main-separator">
+                    <span class="main-separator__text">JOB&nbsp;EXPERIENCE</span>
+                    <div class="main-separator__line"></div>
+                    <img class="main-separator__icon" src=".\assets\main-separator\EXPERIENCE.jpg" alt="">
+                </div>
+                <div class="main-item__contente margin_auto">
+                    <div class="main-textbox">                    
+                        <div class="main-textbox-left">
+                            <div class="main-textbox-left__text">01.01.2000</div>
+                            <div class="main-textbox-left__separator">-</div>
+                            <div class="main-textbox-left__text">01.01.2000</div>
+                        </div>
+                        <div class="main-textbox-right">
+                            <h3 class="main-textbox-right__title">ООО Интернет</h3>
+                            <p class="main-textbox-right__subtitle">Мантажник ЛВС</p>
+                            <p class="main-textbox-right__text">Монтаж локальных сетей, протяжка кобеля, устанавливал оборудование провайдера, настройка конечного оборудования пользователей.</p>
+                        </div>
+                    </div>
+                    <div class="main-textbox margin_top_2em">                    
+                        <div class="main-textbox-left">
+                            <div class="main-textbox-left__text">01.01.2010</div>
+                            <div class="main-textbox-left__separator">-</div>
+                            <div class="main-textbox-left__text">01.01.2010</div>
+                        </div>
+                        <div class="main-textbox-right">
+                            <h3 class="main-textbox-right__title">ООО СКБ-БАНК</h3>
+                            <p class="main-textbox-right__subtitle">Специалист по ремонту банкоматов</p>
+                            <p class="main-textbox-right__text">Затем работал в банке занимался настройкой, ремонтов, и обслуживанием Банкоматов, платёжных и POS терминалов.</p>
+                        </div>
+                    </div> 
+                    <div class="main-textbox margin_top_2em">                    
+                        <div class="main-textbox-left">
+                            <div class="main-textbox-left__text">01.01.2010</div>                            
+                        </div>
+                        <div class="main-textbox-right">
+                            <h3 class="main-textbox-right__title">ООО СКБ-ОНЛАЙН</h3>
+                            <p class="main-textbox-right__subtitle">Middle developer CRM Siebel</p>
+                            <p class="main-textbox-right__text">В рабое ипользую Siebel Tools, eScript, SQL, XSLT, JavaScript.</p>
+                        </div>
+                    </div>    
+                </div>         
             </div>
             <div class="main-item">
-
                 <div class="main-separator">
-                    <span class="main-separator__text">EXPERIENCE</span>
+                    <span class="main-separator__text">EDUCATION</span>
                     <div class="main-separator__line"></div>
-                    <img class="main-separator__icon" src="" alt="">
+                    <img class="main-separator__icon" src=".\assets\main-separator\educational.png" alt="">
                 </div>
-
-                <div class="main-textbox">
-                    
-                    <div class="main-textbox-left">
-                        <div class="main-textbox-left__text">01.01.2000</div>
-                        <div class="main-textbox-left__separator">-</div>
-                        <div class="main-textbox-left__text">01.01.2000</div>
+                <div class="main-item__contente margin_auto">
+                    <div class="main-textbox">                    
+                        <div class="main-textbox-left">
+                            <div class="main-textbox-left__text">01.01.2005</div>
+                            <div class="main-textbox-left__separator">-</div>
+                            <div class="main-textbox-left__text">01.01.2000</div>
+                        </div>
+                        <div class="main-textbox-right">
+                            <h3 class="main-textbox-right__title">Колледж связи</h3>                            
+                            <p class="main-textbox-right__text">Автоматизированные системы управления</p>
+                        </div>
                     </div>
-                    <div class="main-textbox-right">
-                        <h3 class="main-textbox-right__title">ООО Интернет</h3>
-                        <p class="main-textbox-right__subtitle">Мантажник ЛВС</p>
-                        <p class="main-textbox-right__text">монтаж локальных сетей, протяжка кобеля, устанавливал оборудование провайдера, настройка конечного оборудования пользователей.</p>
-                    </div>
-
-                </div>
-                <div class="main-textbox">
-                    
-                    <div class="main-textbox-left">
-                        <div class="main-textbox-left__text">01.01.2010</div>
-                        <div class="main-textbox-left__separator">-</div>
-                        <div class="main-textbox-left__text">01.01.2010</div>
-                    </div>
-                    <div class="main-textbox-right">
-                        <h3 class="main-textbox-right__title">ООО СКБ-БАНК</h3>
-                        <p class="main-textbox-right__subtitle">Специалист по ремонту банкоматов</p>
-                        <p class="main-textbox-right__text">Затем работал в банке занимался настройкой, ремонтов, и обслуживанием Банкоматов, платёжных и POS терминалов.</p>
-                    </div>
-
-                </div> 
-                <div class="main-textbox">
-                    
-                    <div class="main-textbox-left">
-                        <div class="main-textbox-left__text">01.01.2010</div>
-                        <div class="main-textbox-left__separator">-</div>
-                        <div class="main-textbox-left__text">Текушие время</div>
-                    </div>
-                    <div class="main-textbox-right">
-                        <h3 class="main-textbox-right__title">ООО СКБ-ОНЛАЙН</h3>
-                        <p class="main-textbox-right__subtitle">Middle developer CRM Siebel</p>
-                        <p class="main-textbox-right__text">В рабое ипользую Siebel Tools, eScript, SQL, XSLT, JavaScript.</p>
-                    </div>
-
+                    <div class="main-textbox margin_top_2em">                    
+                        <div class="main-textbox-left">
+                            <div class="main-textbox-left__text">01.01.2010</div>
+                            <div class="main-textbox-left__separator">-</div>
+                            <div class="main-textbox-left__text">01.01.2010</div>
+                        </div>
+                        <div class="main-textbox-right">
+                            <h3 class="main-textbox-right__title">СИНХ</h3>                            
+                            <p class="main-textbox-right__text">Банковское дело</p>
+                        </div>
+                    </div> 
+                   
                 </div>         
             </div>
 
+            <div class="main-item">
+                <div class="main-separator">
+                    <span class="main-separator__text">SUMMARY</span>
+                    <div class="main-separator__line"></div>
+                    <img class="main-separator__icon" src=".\assets\main-separator\summary.png" alt="">
+                </div>
+                <div class="main-item__contente margin_auto">
+                    <div class="main-textbox">                         
+                        <div class="main-textbox-Center">                            
+                            <p class="main-textbox-Center__text">Перед тем как составить собственный документ, посмотрите изложение информации у конкурентов. Работодатели ищут соискателей, обладающих высоким уровнем ответственности, быстро воспринимающих новую информацию, способных оперативно реагировать на сложные ситуации.</p>
+                        </div>
+                    </div>           
+                   
+                </div>         
+            </div>
+        </div>
         </main>
 
     </div>
+    <footer class="footer margin_auto">        
+        <img class="footer__img" src=".\assets\footer\rs_school_js.svg" alt="">        
+    </footer>
     
 </body>
 </html>
