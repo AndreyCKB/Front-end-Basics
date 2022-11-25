@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Video Player</title>
+</head>
+<body class="body">    
+    <main class="main">
+        <div class="video-player">
+            <video class="video" src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164"></video>
+            <div class="controls">
+                <div class="controls-center">
+                    <div class="controls-center__body">
+                        <img class="button-center js-play" src="./img/play-button.png" alt="">
+                        <img class="button-center js-pause display_none" src="./img/pause-button.png" alt="">
+                    </div>                               
+                </div>
+                <div class="controls-panel">            
+                    
+                    <input class="video__progress" type="range" min="0" max="0" step="1">            
+                    <div class="controls-wrap">
+                            
+                        <div class="controls-wrap__item">
+                            <img class="button-panel js-play" src="./img/play-button-panel.png" alt="">
+                            <img class="button-panel js-pause display_none" src="./img/pause-button-panel.png" alt="">
+                            <div class="sound">
+                                <img class="button-panel js-volumOn" src="./img/sound.png" alt="">
+                                <img class="button-panel display_none js-mute" src="./img/mute.png" alt="">                    
+                                <input class="sound__range display_none" type="range" min="0" max="100" step="1">                              
+                            </div>
+                        </div>
+                        
+                        <div class="controls-wrap__item">
+                            <div class="time-control">
+                                <img class="button-panel js-back" src="./img/back.png" alt="">
+                                <div class="time-control__text">
+                                    <span class="time-control__time-has-passed">0:00:00</span>
+                                    <span>/</span>
+                                    <span class="time-control__duration">0:00:00</span>
+                                </div>
+                                <img class="button-panel js-forvard" src="./img/forward.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="controls-wrap__item">
+                            <img class="button-panel js-full-sceen" src="./img/full-screen.png" alt="">
+                            <img class="button-panel display_none js-full-sceen-exit" src="./img/full-screen-exit.png" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <script src="./js/script.js"></script>
+        </div>       
+
+    </main>
+    <footer class="footer">
+        <div class="footer_item">
+            <div class="rs-school">
+                <a href="https://rs.school" class="rs-school-link link">
+                    <img src="./img/rs_school_js.png" alt="" class="rs-school-logo">
+                </a>           
+            </div> 
+        </div>
+        <div class="footer_item">   
+            <div class="git-hub"> 
+                <a href="https://github.com/AndreyCKB" class="git-hub__link link">
+                    <img src="./img/icon-github.png" alt="" class="git-hub__logo">
+                    <span>Lyahovich A.I.</span>                                
+                </a>
+            </div>
+        </div>
+        <div class="footer_item">     
+            <span class="git-hub__text">2022 г.</span>
+        </div>      
+    </footer>
+</body>
+</html>

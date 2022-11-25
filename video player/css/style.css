@@ -1,0 +1,184 @@
+html{
+    box-sizing: border-box; 
+    margin: 0;
+}   
+
+*, *:after, *:before{   
+    box-sizing: inherit;
+}    
+
+.body{   
+    background: rgb(9,43,121);
+    background: linear-gradient(90deg, rgba(9,43,121,1) 0%, rgba(0,138,255,1) 0%, rgba(116,9,121,1) 84%);
+      
+}
+
+.main{
+    min-height: 90vh; 
+    display: flex;     
+    flex-direction: column;
+    align-items: center;     
+    justify-content: center;
+}
+
+
+.video-player{        
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;   
+    flex-direction: column;
+    justify-content: center;     
+    position: relative;
+    border: 2px solid rgba(71, 73, 71, 0.7);    
+    box-shadow: 9px 9px 9px 3px rgba(71, 73, 71, 0.7);
+}     
+.video-player:fullscreen { 
+    max-width: none; 
+    width: 100%;
+}
+  
+.video-player:-webkit-full-screen { 
+    max-width: none;    
+    width: 100%;
+}
+
+.video{
+    width: 100%;
+ }
+
+.controls{   
+    display: flex;
+    flex-wrap: wrap;   
+    flex-direction: column;    
+}
+
+
+
+.controls-center{
+    top:40%;
+    left: 45%;    
+    position: absolute;
+    opacity:0; 
+    transition: 1s;         
+}
+
+
+.controls-center__body{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+}
+.button-center { 
+    width: 50px;
+    height: 50px;
+    transition: 1s;     
+}
+.button-center:hover { 
+    width: 70px;
+    height: 70px;     
+}
+
+
+
+.controls-panel{
+    height: 50px;
+    width: 100%;    
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    flex-direction: column;    
+    color: white;
+    bottom: 0;
+    left: 0;   
+    opacity:0; 
+    transition: 2s; 
+}
+
+.video__progress{    
+    max-width: 100%;
+}
+.controls-wrap{
+    height: 50%;    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.controls-wrap__item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;    
+}
+
+.sound{       
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;   
+}
+.sound__range{
+    margin: auto 0;
+}
+
+.time-control{  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+}
+.time-control__text{
+    margin: auto 0;
+}
+
+.button-panel{
+    height: 25px;
+    margin: 0 5px;
+}
+.button-panel:hover{
+    filter: invert(0.2);
+}
+
+
+.footer{     
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+.footer_item{
+    display: flex;
+    max-height: 60px;
+    font-size: 25px;
+}
+
+.link:hover{
+    filter: invert(0.2);
+}
+
+.rs-school{
+    width: 110px;    
+}
+.rs-school-logo {
+    height: 100%;    
+}
+
+.git-hub {         
+    padding-top: 30px;    
+}
+.git-hub__link { 
+    color: yellow;   
+    text-decoration: none;  
+}
+.git-hub__text {
+    padding-top: 40px;  
+    color: yellow;
+    text-decoration: none;
+}
+.git-hub__logo {
+    height: 30px;
+}
+
+.display_none{
+    display: none;
+}
